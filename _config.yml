@@ -5,7 +5,7 @@
 # Site
 title: Wangyer's Milk
 subtitle:
-description:
+description: '喂，你看到远方了吗。。。'
 author: wangyer
 language: zh-Hans
 timezone:
@@ -80,3 +80,10 @@ deploy:
   type: git
   repository: ssh://git@github.com/wangyer/wangyer.github.io.git
   branch: master
+
+# 微搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
